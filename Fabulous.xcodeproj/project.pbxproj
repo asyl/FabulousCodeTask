@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A72D84681F347DFD00312BE9 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72D84671F347DFD00312BE9 /* Then.swift */; };
+		A72D846A1F347E9C00312BE9 /* FabulousColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72D84691F347E9C00312BE9 /* FabulousColor.swift */; };
+		A72D846C1F35032200312BE9 /* ViewUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72D846B1F35032200312BE9 /* ViewUtil.swift */; };
+		A72D846E1F35E9C500312BE9 /* FabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72D846D1F35E9C500312BE9 /* FabButton.swift */; };
+		A73CCDFB1F3326EC0060B186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CCDFA1F3326EC0060B186 /* AppDelegate.swift */; };
+		A73CCDFD1F3326EC0060B186 /* FabulousController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CCDFC1F3326EC0060B186 /* FabulousController.swift */; };
+		A73CCE021F3326EC0060B186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73CCE011F3326EC0060B186 /* Assets.xcassets */; };
+		A73CCE051F3326EC0060B186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73CCE031F3326EC0060B186 /* LaunchScreen.storyboard */; };
+		A73CCE0D1F33605F0060B186 /* RitualCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CCE0C1F33605F0060B186 /* RitualCell.swift */; };
+		A73CCE101F3364860060B186 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CCE0F1F3364860060B186 /* BaseTableViewCell.swift */; };
+		A73CCE131F336BEE0060B186 /* LauncherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CCE121F336BEE0060B186 /* LauncherView.swift */; };
+		A796A4911F389CE300D63FEF /* FabulousCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A796A48F1F389CE300D63FEF /* FabulousCardCell.swift */; };
+		A796A4921F389CE300D63FEF /* FabulousCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A796A4901F389CE300D63FEF /* FabulousCardCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A72D84671F347DFD00312BE9 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Utils/Then.swift; sourceTree = "<group>"; };
+		A72D84691F347E9C00312BE9 /* FabulousColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FabulousColor.swift; path = Utils/FabulousColor.swift; sourceTree = "<group>"; };
+		A72D846B1F35032200312BE9 /* ViewUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewUtil.swift; path = Utils/ViewUtil.swift; sourceTree = "<group>"; };
+		A72D846D1F35E9C500312BE9 /* FabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FabButton.swift; path = View/FabButton.swift; sourceTree = "<group>"; };
+		A73CCDF71F3326EC0060B186 /* Fabulous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fabulous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73CCDFA1F3326EC0060B186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A73CCDFC1F3326EC0060B186 /* FabulousController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabulousController.swift; sourceTree = "<group>"; };
+		A73CCE011F3326EC0060B186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A73CCE041F3326EC0060B186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A73CCE061F3326EC0060B186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73CCE0C1F33605F0060B186 /* RitualCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RitualCell.swift; path = Cells/RitualCell.swift; sourceTree = "<group>"; };
+		A73CCE0F1F3364860060B186 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseTableViewCell.swift; path = Cells/BaseTableViewCell.swift; sourceTree = "<group>"; };
+		A73CCE121F336BEE0060B186 /* LauncherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LauncherView.swift; path = View/LauncherView.swift; sourceTree = "<group>"; };
+		A796A48F1F389CE300D63FEF /* FabulousCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FabulousCardCell.swift; path = Cells/FabulousCardCell.swift; sourceTree = "<group>"; };
+		A796A4901F389CE300D63FEF /* FabulousCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FabulousCardCell.xib; path = Cells/FabulousCardCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A73CCDF41F3326EC0060B186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A72D84661F347DD700312BE9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A72D84671F347DFD00312BE9 /* Then.swift */,
+				A72D84691F347E9C00312BE9 /* FabulousColor.swift */,
+				A72D846B1F35032200312BE9 /* ViewUtil.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		A73CCDEE1F3326EC0060B186 = {
+			isa = PBXGroup;
+			children = (
+				A73CCDF91F3326EC0060B186 /* Fabulous */,
+				A73CCDF81F3326EC0060B186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A73CCDF81F3326EC0060B186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A73CCDF71F3326EC0060B186 /* Fabulous.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A73CCDF91F3326EC0060B186 /* Fabulous */ = {
+			isa = PBXGroup;
+			children = (
+				A72D84661F347DD700312BE9 /* Utils */,
+				A73CCE111F336BCF0060B186 /* View */,
+				A73CCE0E1F3364700060B186 /* Cells */,
+				A73CCDFA1F3326EC0060B186 /* AppDelegate.swift */,
+				A73CCDFC1F3326EC0060B186 /* FabulousController.swift */,
+				A73CCE011F3326EC0060B186 /* Assets.xcassets */,
+				A73CCE031F3326EC0060B186 /* LaunchScreen.storyboard */,
+				A73CCE061F3326EC0060B186 /* Info.plist */,
+			);
+			path = Fabulous;
+			sourceTree = "<group>";
+		};
+		A73CCE0E1F3364700060B186 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A73CCE0F1F3364860060B186 /* BaseTableViewCell.swift */,
+				A73CCE0C1F33605F0060B186 /* RitualCell.swift */,
+				A796A48F1F389CE300D63FEF /* FabulousCardCell.swift */,
+				A796A4901F389CE300D63FEF /* FabulousCardCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		A73CCE111F336BCF0060B186 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A73CCE121F336BEE0060B186 /* LauncherView.swift */,
+				A72D846D1F35E9C500312BE9 /* FabButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A73CCDF61F3326EC0060B186 /* Fabulous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73CCE091F3326EC0060B186 /* Build configuration list for PBXNativeTarget "Fabulous" */;
+			buildPhases = (
+				A73CCDF31F3326EC0060B186 /* Sources */,
+				A73CCDF41F3326EC0060B186 /* Frameworks */,
+				A73CCDF51F3326EC0060B186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fabulous;
+			productName = Fabulous;
+			productReference = A73CCDF71F3326EC0060B186 /* Fabulous.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A73CCDEF1F3326EC0060B186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = asyl;
+				TargetAttributes = {
+					A73CCDF61F3326EC0060B186 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V4N7MCQL25;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A73CCDF21F3326EC0060B186 /* Build configuration list for PBXProject "Fabulous" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A73CCDEE1F3326EC0060B186;
+			productRefGroup = A73CCDF81F3326EC0060B186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A73CCDF61F3326EC0060B186 /* Fabulous */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A73CCDF51F3326EC0060B186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A796A4921F389CE300D63FEF /* FabulousCardCell.xib in Resources */,
+				A73CCE051F3326EC0060B186 /* LaunchScreen.storyboard in Resources */,
+				A73CCE021F3326EC0060B186 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A73CCDF31F3326EC0060B186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73CCE101F3364860060B186 /* BaseTableViewCell.swift in Sources */,
+				A72D846C1F35032200312BE9 /* ViewUtil.swift in Sources */,
+				A73CCDFD1F3326EC0060B186 /* FabulousController.swift in Sources */,
+				A73CCE131F336BEE0060B186 /* LauncherView.swift in Sources */,
+				A73CCDFB1F3326EC0060B186 /* AppDelegate.swift in Sources */,
+				A796A4911F389CE300D63FEF /* FabulousCardCell.swift in Sources */,
+				A72D846E1F35E9C500312BE9 /* FabButton.swift in Sources */,
+				A72D846A1F347E9C00312BE9 /* FabulousColor.swift in Sources */,
+				A72D84681F347DFD00312BE9 /* Then.swift in Sources */,
+				A73CCE0D1F33605F0060B186 /* RitualCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A73CCE031F3326EC0060B186 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73CCE041F3326EC0060B186 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A73CCE071F3326EC0060B186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A73CCE081F3326EC0060B186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A73CCE0A1F3326EC0060B186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V4N7MCQL25;
+				INFOPLIST_FILE = Fabulous/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.codetail.Fabulous;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A73CCE0B1F3326EC0060B186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V4N7MCQL25;
+				INFOPLIST_FILE = Fabulous/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.codetail.Fabulous;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A73CCDF21F3326EC0060B186 /* Build configuration list for PBXProject "Fabulous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73CCE071F3326EC0060B186 /* Debug */,
+				A73CCE081F3326EC0060B186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A73CCE091F3326EC0060B186 /* Build configuration list for PBXNativeTarget "Fabulous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73CCE0A1F3326EC0060B186 /* Debug */,
+				A73CCE0B1F3326EC0060B186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A73CCDEF1F3326EC0060B186 /* Project object */;
+}
